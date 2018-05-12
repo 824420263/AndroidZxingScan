@@ -38,7 +38,7 @@ import java.util.Collection;
 final class CameraConfigurationManager {
 
   private static final String TAG = "CameraConfiguration";
-  private static final int MIN_PREVIEW_PIXELS = 320 * 240; // small screen
+  private static final int MIN_PREVIEW_PIXELS = 1280 * 768; // small screen
 //  private static final int MAX_PREVIEW_PIXELS = 1280 * 768; // large/HD screen
 
   private final Context context;
